@@ -1,19 +1,19 @@
-#  Indian Railways Dashboard (Kerala)
+#  Cats vs Dogs 
 ### Project Overview:
-The Kerala Railways Dashboard project aims to create an interactive and informative dashboard that visualizes data for all trains running in the state of Kerala. The dashboard will provide insights into train schedules, delays, current locations, and other relevant metrics, offering a comprehensive view of the railway network in Kerala.
+With this project, I intend to understand how engaged people are with Cats vs Dogs content on Reddit and Derive metrics to understand - which of Cats and Dogs is Trending that Day; 
 
 
 ### Project Objectives:
 
-1. Create an ETL job to fetch relevant information
-2. Historic back-fill of Data
+1. Create an ETL job to fetch relevant information from two - one of each of cat sub reddit and dog sub reddit thread
+2. Historic back-fill of Data (may be only a week)
 3. Decide important KPIs - 
-   a. Number of Trains running
-   b. Superfast Trains vs local 
-   c. Train accessibility vs Population Density 
-   d. Num Trains on Time
-   e. Num Trains Delayed
-   f. Weekday delays vs weekend
-   (More can be added)
+   a. Number of Submissions
+   b. No of comments
+   c. Emoji count/implication
+   d. max of upvotes/downvotes of posts every hour
+   e. Avg upvotes/downvotes for a day
+   f. % of posts with no comments
+   g. No of Unique users engaging
    
 4. Dashboard creation 
