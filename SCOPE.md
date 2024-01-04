@@ -1,19 +1,27 @@
-#  Cats vs Dogs 
-### Project Overview:
-With this project, I intend to understand how engaged people are with Cats vs Dogs content on Reddit and Derive metrics to understand - which of Cats and Dogs is Trending that Day; 
+### Reddit Growth Tracker
 
+The goal of this data engineering project is to analyze and visualize the trends on Reddit for a specific period, focusing on the most popular subreddits and topics. By doing so, we aim to gain insights into the dynamic nature of trending content, and gather insights about the performace of the app
 
-### Project Objectives:
+#### Project Steps:
 
-1. Create an ETL job to fetch relevant information from two - one of each of cat sub reddit and dog sub reddit thread
-2. Historic back-fill of Data (may be only a week)
-3. Decide important KPIs - 
-   a. Number of Submissions
-   b. No of comments
-   c. Emoji count/implication
-   d. max of upvotes/downvotes of posts every hour
-   e. Avg upvotes/downvotes for a day
-   f. % of posts with no comments
-   g. No of Unique users engaging
-   
-4. Dashboard creation 
+1. Data Extraction : Get data on the subreddits; for simplicity of the project, get data on top 20 subreddits. This can be used as a proxy for the subreddit universe. This data will be modelled and pushed to data lake
+2. Data Processing :
+3. Data Modelling 
+4. Analysis
+5. Implement KPI: 
+    1. Active Daily Users
+    2. Active Power Users
+    3. Number of daily posts
+    4. Number of upvotes
+    5. Number of downvotes
+    6. Number of comments
+    7. Number of viral posts
+    8. Creation timestamp
+    9. Post/Day/subreddit
+   10. Num of comments in the first 5 minutes
+   11. Num of comments in the first 30 minutes 
+   12. Num of comments in the first 60 minutes 
+   13. Num of comments in the first 90 minutes
+6. Visualization
+7. Testing
+
